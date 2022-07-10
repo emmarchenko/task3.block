@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Таблица</title>
+  <style type="text/css">
+    .group {
+      width: 700px;
+      background: #eee;
+      padding: 5px;
+
+    } 
+    .card {
+      display: inline-block;
+      margin: 5px;
+      position: relative;
+    } 
+    .card-img {
+      width: 220px;
+      height: 240px;
+      font-size: 160px;
+      text-align: center;
+      line-height: 240px;
+    }
+    .card-info {
+      width: 220px;
+      height: 80px;
+      background: #fff;
+      font-size: 30px;
+      line-height: 80px;
+      box-shadow: 3px 3px 3px #bbb;
+    }
+    span {
+      padding-left: 10px;
+    }  
+    .green {
+      color: #fff;
+      background: #269f5d;
+    }
+    .blue {
+      color: #000;
+      background: #65c2dc;
+    }
+    .orange {
+      color: #fff;
+      background: #eebc40;
+    }
+    .button {
+      text-align: center;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background: #4d88ef;
+      border: none;
+      position: absolute;
+      left: 160px;
+      top: 215px;
+
+
+    }
+  </style>
+</head>
+<body>
+  <header>Создание сайта</header>
+  <main>
+    <div class = "group">
+      <div class="card">
+        <div class="card-img green">
+          3
+        </div>
+        <div class="card-info">
+          <span>Card 3</span>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-img blue">
+          1
+        </div>
+        <button class="button">
+          <img src="img/arrow.png" width="30" height="30">
+        </button>
+        <div class="card-info">
+          <span>Card 1</span>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-img orange">
+          2
+        </div>
+        <div class="card-info">
+          <span>Card 2</span>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
